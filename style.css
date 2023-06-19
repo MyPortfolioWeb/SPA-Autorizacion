@@ -5,7 +5,7 @@ body {
   }
   
   header {
-    background-color: #97c3d1;;
+    background-color: #97c3d1;
     color: #fff;
     padding: 10px;
         /*Aplicamos el display flex*/
@@ -80,7 +80,7 @@ body {
   }
   
   footer {
-    background-color: #7c7b7b;
+    background-color: #97c3d1;
     color: #fff;
     padding: 10px;
     margin-right: 20px;

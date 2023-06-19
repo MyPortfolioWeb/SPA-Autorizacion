@@ -82,7 +82,7 @@ window.addEventListener('load', function () {
         content.innerHTML = `
         <h1>Admin</h1>
         `;
-  }
+    }
 
     // Обработка изменений хэша в URL
     window.addEventListener('hashchange', loadContent);
@@ -93,19 +93,19 @@ window.addEventListener('load', function () {
 
 // Загрузка страницы с галереей
 function loadGallery() {
-        const content = document.getElementById('content');
-        let galleryHTML = '<h2>Gallery</h2>';
-        galleryHTML += '<div class="gallery-row">';
-      
-          galleryHTML += `
+    const content = document.getElementById('content');
+    let galleryHTML = '<h2>Gallery</h2>';
+    galleryHTML += '<div class="gallery-row">';
+
+    galleryHTML += `
             <div class="photo">
               <img src="" alt="">
               <h2>Hola coder!</h2>
-              <p>Esto podría ser su publicidad)))</p>
+              <p>Aquí podría ser su publicidad)))</p>
             </div>
           `;
-          
-        galleryHTML += '</div>';
-  
-        content.innerHTML = galleryHTML;
+
+    galleryHTML += '</div>';
+
+    content.innerHTML = galleryHTML;
 }
